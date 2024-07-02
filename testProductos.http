@@ -1,0 +1,13 @@
+@server_local = 'http://127.0.0.1:5000'
+
+###
+
+GET  http://127.0.0.1:5000/api/producto HTTP/1.1
+###
+
+GET  http://127.0.0.1:5000/api/producto/genero/1 HTTP/1.1
+
+###
+GET  http://127.0.0.1:5000/api/color HTTP/1.1
+###
+DELETE   http://127.0.0.1:5000/api/color/3 HTTP/1.1
